@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常用综合</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom right, #d2d536, #e7e563d2);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            width: 90%;
+            max-width: 900px;
+            aspect-ratio: 1/1;
+        }
+        .grid-item {
+            position: relative;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+        .grid-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+        .title-overlay {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: rgba(103, 101, 101, 0.8);
+            font-size: 18px;
+            font-weight: bold;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item" onclick="window.open('https://www.google.com/search?q=translate&oq=tr&gs_lcrp=EgZjaHJvbWUqDQgCEAAYgwEYsQMYgAQyBggAEEUYOTIMCAEQIxgnGIAEGIoFMg0IAhAAGIMBGLEDGIAEMgcIAxAAGIAEMhMIBBAuGIMBGMcBGLEDGNEDGIAEMhAIBRAuGIMBGNQCGLEDGIAEMhAIBhAuGIMBGNQCGLEDGIAEMg0IBxAuGMcBGNEDGIAEMg0ICBAAGIMBGLEDGIAEMgoICRAuGLEDGIAE0gEJMzI0MmowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8', '_blank')">
+            <img src="translate.png" alt="Image 1">
+            <div class="title-overlay">Translator</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://github.com/', '_blank')">
+            <img src="2Github.png" alt="Image 2">
+            <div class="title-overlay">代码库</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://www.youtube.com/', '_blank')">
+            <img src="youtube.png" alt="Image 3">
+            <div class="title-overlay">Youtobe</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://drive.google.com/', '_blank')">
+            <img src="googledrive.png" alt="Image 4">
+            <div class="title-overlay">Cloud</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://chatgpt.com/', '_blank')">
+            <img src="chat-gpt.png" alt="Image 5">
+            <div class="title-overlay">Intelligence</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://www.facebook.com/', '_blank')">
+            <img src="Facebook.png" alt="Image 6">
+            <div class="title-overlay">Facebook</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://vercel.com/', '_blank')">
+            <img src="Vercel Logo.png" alt="Image 7">
+            <div class="title-overlay">发布网站</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://app.ltx.studio/', '_blank')">
+            <img src="Ltx.png" alt="Image 8">
+            <div class="title-overlay">GraphicAi</div>
+        </div>
+        <div class="grid-item" onclick="window.open('https://www.blenderkit.com/', '_blank')">
+            <img src="blenderkit.png" alt="Image 9">
+            <div class="title-overlay">Blender kit</div>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- https://app.netlify.com -->
+<!-- https://console.firebase.google.com -->
+<!-- https://www.google.com.hk/search?q=%E8%B0%B7%E6%AD%8C%E7%BF%BB%E8%AF%91&oq=gug&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDINCAUQLhjHARjRAxiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCTQ3MTFqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8 -->
+<!-- Youtobe.com -->
+<!-- bilibili.com -->
+
+
+<!-- git remote add origin https://github.com/Eseco111/WebGoOften.git -->
+
+<!-- git push origin master -->
